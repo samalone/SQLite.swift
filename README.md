@@ -7,6 +7,13 @@ A type-safe, [Swift][]-language layer over [SQLite3][].
 [SQLite.swift][] provides compile-time confidence in SQL statement
 syntax _and_ intent.
 
+This fork of Stephen Celis' work is intended to interoperate
+with the port of
+[Spatialite for iOS](https://github.com/Ryandev/spatialite-iOS)
+by Ryan Powell. Instead of linking with the built-in iOS sqlite3
+library, it links with the customized build of sqlite3 included
+in that library.
+
 [Badge]: https://img.shields.io/travis/stephencelis/SQLite.swift/master.svg?style=flat
 [Travis]: https://travis-ci.org/stephencelis/SQLite.swift
 [Swift]: https://developer.apple.com/swift/
